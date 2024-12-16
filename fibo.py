@@ -3,4 +3,4 @@ def fibo(num):
         return num
     else:
         return fibo(num-1) + fibo(num-2)
-    print(fibo(5))
+print(fibo(5))
